@@ -1,0 +1,1 @@
+cmd_drivers/pwm/pwm-pca9685.ko := ../tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian-x64/bin/arm-linux-gnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o drivers/pwm/pwm-pca9685.ko drivers/pwm/pwm-pca9685.o drivers/pwm/pwm-pca9685.mod.o

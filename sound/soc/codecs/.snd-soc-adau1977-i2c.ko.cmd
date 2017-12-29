@@ -1,0 +1,1 @@
+cmd_sound/soc/codecs/snd-soc-adau1977-i2c.ko := ../tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian-x64/bin/arm-linux-gnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o sound/soc/codecs/snd-soc-adau1977-i2c.ko sound/soc/codecs/snd-soc-adau1977-i2c.o sound/soc/codecs/snd-soc-adau1977-i2c.mod.o

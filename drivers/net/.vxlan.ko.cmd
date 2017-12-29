@@ -1,0 +1,1 @@
+cmd_drivers/net/vxlan.ko := ../tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian-x64/bin/arm-linux-gnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o drivers/net/vxlan.ko drivers/net/vxlan.o drivers/net/vxlan.mod.o

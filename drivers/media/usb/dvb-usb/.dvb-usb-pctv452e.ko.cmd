@@ -1,0 +1,1 @@
+cmd_drivers/media/usb/dvb-usb/dvb-usb-pctv452e.ko := ../tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian-x64/bin/arm-linux-gnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o drivers/media/usb/dvb-usb/dvb-usb-pctv452e.ko drivers/media/usb/dvb-usb/dvb-usb-pctv452e.o drivers/media/usb/dvb-usb/dvb-usb-pctv452e.mod.o

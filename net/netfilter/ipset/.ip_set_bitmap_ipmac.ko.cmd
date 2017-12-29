@@ -1,0 +1,1 @@
+cmd_net/netfilter/ipset/ip_set_bitmap_ipmac.ko := ../tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian-x64/bin/arm-linux-gnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o net/netfilter/ipset/ip_set_bitmap_ipmac.ko net/netfilter/ipset/ip_set_bitmap_ipmac.o net/netfilter/ipset/ip_set_bitmap_ipmac.mod.o

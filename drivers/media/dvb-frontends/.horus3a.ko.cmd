@@ -1,0 +1,1 @@
+cmd_drivers/media/dvb-frontends/horus3a.ko := ../tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian-x64/bin/arm-linux-gnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o drivers/media/dvb-frontends/horus3a.ko drivers/media/dvb-frontends/horus3a.o drivers/media/dvb-frontends/horus3a.mod.o
