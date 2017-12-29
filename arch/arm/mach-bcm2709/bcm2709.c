@@ -190,7 +190,7 @@ static void __init bcm2709_init_uart1(void)
 
 static struct i2c_board_info i2c_devs1[] __initdata = {
 {
-	I2C_BOARD_INFO("tpm_i2c_ateml", 0x29),},
+	I2C_BOARD_INFO("tpm_i2c_atmel", 0x29),},
 };
 
 void __init bcm2709_init(void)
