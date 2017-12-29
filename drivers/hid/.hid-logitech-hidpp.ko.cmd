@@ -1,0 +1,1 @@
+cmd_drivers/hid/hid-logitech-hidpp.ko := ../tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian-x64/bin/arm-linux-gnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o drivers/hid/hid-logitech-hidpp.ko drivers/hid/hid-logitech-hidpp.o drivers/hid/hid-logitech-hidpp.mod.o

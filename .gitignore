@@ -9,7 +9,7 @@
 #
 # Normal rules
 #
-.*
+#.*
 *.o
 *.o.*
 *.a
@@ -108,7 +108,7 @@ signing_key.x509
 x509.genkey
 
 # Kconfig presets
-all.config
+#all.config
 
 # Kdevelop4
 *.kdev4

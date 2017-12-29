@@ -1,0 +1,1 @@
+cmd_drivers/i2c/muxes/i2c-mux-pca954x.ko := ../tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian-x64/bin/arm-linux-gnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o drivers/i2c/muxes/i2c-mux-pca954x.ko drivers/i2c/muxes/i2c-mux-pca954x.o drivers/i2c/muxes/i2c-mux-pca954x.mod.o
