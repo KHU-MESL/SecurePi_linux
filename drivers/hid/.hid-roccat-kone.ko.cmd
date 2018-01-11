@@ -1,1 +1,1 @@
-cmd_drivers/hid/hid-roccat-kone.ko := ../tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian-x64/bin/arm-linux-gnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o drivers/hid/hid-roccat-kone.ko drivers/hid/hid-roccat-kone.o drivers/hid/hid-roccat-kone.mod.o
+cmd_drivers/hid/hid-roccat-kone.ko := ../../kernel4.5/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian-x64/bin/arm-linux-gnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o drivers/hid/hid-roccat-kone.ko drivers/hid/hid-roccat-kone.o drivers/hid/hid-roccat-kone.mod.o

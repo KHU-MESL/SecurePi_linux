@@ -1,1 +1,1 @@
-cmd_drivers/input/evdev.ko := ../tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian-x64/bin/arm-linux-gnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o drivers/input/evdev.ko drivers/input/evdev.o drivers/input/evdev.mod.o
+cmd_drivers/input/evdev.ko := ../../kernel4.5/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian-x64/bin/arm-linux-gnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o drivers/input/evdev.ko drivers/input/evdev.o drivers/input/evdev.mod.o

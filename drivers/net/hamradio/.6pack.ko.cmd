@@ -1,1 +1,1 @@
-cmd_drivers/net/hamradio/6pack.ko := ../tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian-x64/bin/arm-linux-gnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o drivers/net/hamradio/6pack.ko drivers/net/hamradio/6pack.o drivers/net/hamradio/6pack.mod.o
+cmd_drivers/net/hamradio/6pack.ko := ../../kernel4.5/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian-x64/bin/arm-linux-gnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o drivers/net/hamradio/6pack.ko drivers/net/hamradio/6pack.o drivers/net/hamradio/6pack.mod.o

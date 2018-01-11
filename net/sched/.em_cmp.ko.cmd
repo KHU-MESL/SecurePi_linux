@@ -1,1 +1,1 @@
-cmd_net/sched/em_cmp.ko := ../tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian-x64/bin/arm-linux-gnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o net/sched/em_cmp.ko net/sched/em_cmp.o net/sched/em_cmp.mod.o
+cmd_net/sched/em_cmp.ko := ../../kernel4.5/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian-x64/bin/arm-linux-gnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o net/sched/em_cmp.ko net/sched/em_cmp.o net/sched/em_cmp.mod.o

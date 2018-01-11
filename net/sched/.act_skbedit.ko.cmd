@@ -1,1 +1,1 @@
-cmd_net/sched/act_skbedit.ko := ../tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian-x64/bin/arm-linux-gnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o net/sched/act_skbedit.ko net/sched/act_skbedit.o net/sched/act_skbedit.mod.o
+cmd_net/sched/act_skbedit.ko := ../../kernel4.5/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian-x64/bin/arm-linux-gnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o net/sched/act_skbedit.ko net/sched/act_skbedit.o net/sched/act_skbedit.mod.o

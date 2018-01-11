@@ -1,1 +1,1 @@
-cmd_net/netfilter/ipvs/ip_vs_dh.ko := ../tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian-x64/bin/arm-linux-gnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o net/netfilter/ipvs/ip_vs_dh.ko net/netfilter/ipvs/ip_vs_dh.o net/netfilter/ipvs/ip_vs_dh.mod.o
+cmd_net/netfilter/ipvs/ip_vs_dh.ko := ../../kernel4.5/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian-x64/bin/arm-linux-gnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o net/netfilter/ipvs/ip_vs_dh.ko net/netfilter/ipvs/ip_vs_dh.o net/netfilter/ipvs/ip_vs_dh.mod.o

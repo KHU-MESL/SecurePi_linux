@@ -1,1 +1,1 @@
-cmd_drivers/input/misc/uinput.ko := ../tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian-x64/bin/arm-linux-gnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o drivers/input/misc/uinput.ko drivers/input/misc/uinput.o drivers/input/misc/uinput.mod.o
+cmd_drivers/input/misc/uinput.ko := ../../kernel4.5/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian-x64/bin/arm-linux-gnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o drivers/input/misc/uinput.ko drivers/input/misc/uinput.o drivers/input/misc/uinput.mod.o

@@ -1,1 +1,1 @@
-cmd_net/sched/act_pedit.ko := ../tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian-x64/bin/arm-linux-gnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o net/sched/act_pedit.ko net/sched/act_pedit.o net/sched/act_pedit.mod.o
+cmd_net/sched/act_pedit.ko := ../../kernel4.5/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian-x64/bin/arm-linux-gnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o net/sched/act_pedit.ko net/sched/act_pedit.o net/sched/act_pedit.mod.o
