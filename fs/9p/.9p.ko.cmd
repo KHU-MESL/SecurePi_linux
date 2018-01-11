@@ -1,1 +1,1 @@
-cmd_fs/9p/9p.ko := ../tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian-x64/bin/arm-linux-gnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o fs/9p/9p.ko fs/9p/9p.o fs/9p/9p.mod.o
+cmd_fs/9p/9p.ko := ../../kernel4.5/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian-x64/bin/arm-linux-gnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o fs/9p/9p.ko fs/9p/9p.o fs/9p/9p.mod.o

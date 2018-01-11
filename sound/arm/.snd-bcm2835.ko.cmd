@@ -1,1 +1,1 @@
-cmd_sound/arm/snd-bcm2835.ko := ../tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian-x64/bin/arm-linux-gnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o sound/arm/snd-bcm2835.ko sound/arm/snd-bcm2835.o sound/arm/snd-bcm2835.mod.o
+cmd_sound/arm/snd-bcm2835.ko := ../../kernel4.5/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian-x64/bin/arm-linux-gnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o sound/arm/snd-bcm2835.ko sound/arm/snd-bcm2835.o sound/arm/snd-bcm2835.mod.o

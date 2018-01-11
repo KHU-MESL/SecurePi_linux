@@ -1,1 +1,1 @@
-cmd_fs/nls/nls_cp936.ko := ../tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian-x64/bin/arm-linux-gnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o fs/nls/nls_cp936.ko fs/nls/nls_cp936.o fs/nls/nls_cp936.mod.o
+cmd_fs/nls/nls_cp936.ko := ../../kernel4.5/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian-x64/bin/arm-linux-gnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o fs/nls/nls_cp936.ko fs/nls/nls_cp936.o fs/nls/nls_cp936.mod.o

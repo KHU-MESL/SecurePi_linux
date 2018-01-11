@@ -1,1 +1,1 @@
-cmd_net/netfilter/xt_TPROXY.ko := ../tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian-x64/bin/arm-linux-gnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o net/netfilter/xt_TPROXY.ko net/netfilter/xt_TPROXY.o net/netfilter/xt_TPROXY.mod.o
+cmd_net/netfilter/xt_TPROXY.ko := ../../kernel4.5/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian-x64/bin/arm-linux-gnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o net/netfilter/xt_TPROXY.ko net/netfilter/xt_TPROXY.o net/netfilter/xt_TPROXY.mod.o

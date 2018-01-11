@@ -1,1 +1,1 @@
-cmd_drivers/media/tuners/tda827x.ko := ../tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian-x64/bin/arm-linux-gnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o drivers/media/tuners/tda827x.ko drivers/media/tuners/tda827x.o drivers/media/tuners/tda827x.mod.o
+cmd_drivers/media/tuners/tda827x.ko := ../../kernel4.5/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian-x64/bin/arm-linux-gnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o drivers/media/tuners/tda827x.ko drivers/media/tuners/tda827x.o drivers/media/tuners/tda827x.mod.o

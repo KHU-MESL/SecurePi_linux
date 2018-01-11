@@ -1,1 +1,1 @@
-cmd_drivers/md/raid10.ko := ../tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian-x64/bin/arm-linux-gnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o drivers/md/raid10.ko drivers/md/raid10.o drivers/md/raid10.mod.o
+cmd_drivers/md/raid10.ko := ../../kernel4.5/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian-x64/bin/arm-linux-gnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o drivers/md/raid10.ko drivers/md/raid10.o drivers/md/raid10.mod.o

@@ -1,1 +1,1 @@
-cmd_drivers/video/fbdev/udlfb.ko := ../tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian-x64/bin/arm-linux-gnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o drivers/video/fbdev/udlfb.ko drivers/video/fbdev/udlfb.o drivers/video/fbdev/udlfb.mod.o
+cmd_drivers/video/fbdev/udlfb.ko := ../../kernel4.5/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian-x64/bin/arm-linux-gnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o drivers/video/fbdev/udlfb.ko drivers/video/fbdev/udlfb.o drivers/video/fbdev/udlfb.mod.o

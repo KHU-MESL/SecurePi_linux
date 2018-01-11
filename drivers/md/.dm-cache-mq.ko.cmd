@@ -1,1 +1,1 @@
-cmd_drivers/md/dm-cache-mq.ko := ../tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian-x64/bin/arm-linux-gnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o drivers/md/dm-cache-mq.ko drivers/md/dm-cache-mq.o drivers/md/dm-cache-mq.mod.o
+cmd_drivers/md/dm-cache-mq.ko := ../../kernel4.5/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian-x64/bin/arm-linux-gnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o drivers/md/dm-cache-mq.ko drivers/md/dm-cache-mq.o drivers/md/dm-cache-mq.mod.o
